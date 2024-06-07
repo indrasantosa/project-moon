@@ -1,0 +1,43 @@
+.seeMore {
+  position: relative;
+  margin-left: 4px;
+  color: var(--color-cornflowerblue-100);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+}
+
+.modalContents {
+  white-space: pre-wrap;
+}
+
+.colorBlue {
+  color: var(--color-cornflowerblue-100);
+}
+
+.colorBlue:hover {
+  color: var(--color-steelblue);
+}
+
+.colorPurple {
+  color: var(--color-lightpurple);
+}
+
+.colorPurple:hover {
+  color: #8e64e7;
+}
+
+.colorGreen {
+  color: var(--color-lightgreen);
+}
+
+.colorGreen:hover {
+  color: #76dcb6;
+}
+
+@media (max-width: 578px) {
+  .inviteButton {
+    margin-right: 0px;
+  }
+}
